@@ -2,11 +2,10 @@
 ---
 ## By: CryptoLuigi
 ## Code contributors: Cryptonuffe miabo
+## Edit: WaterTim
 #### Click link below to learn more about HiveOS
 
-https://hiveos.farm?ref=84706
-
-Promocode for $10: CRYPTOMIKE
+https://hiveos.farm?ref=199569
 
 When running this script, the script which AMD Driver you want to install.
 
