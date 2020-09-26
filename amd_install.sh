@@ -100,7 +100,7 @@ case $opt in
         version="19.50-967956-ubuntu-18.04";break
     ;;
 	"20.30-1109583-ubuntu-18.04")
-	wget https://drivers.amd.com/drivers/linux/amdgpu-pro-20.30-1109583-ubuntu-18.04.tar.xz
+	curl --referer https://drivers.amd.com/drivers/linux -O https://drivers.amd.com/drivers/linux/amdgpu-pro-20.30-1109583-ubuntu-18.04.tar.xz
         version="20.30-1109583-ubuntu-18.04";break
     ;;
 	"Quit")
