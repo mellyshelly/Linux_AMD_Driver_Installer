@@ -1,8 +1,9 @@
 #!/bin/bash
 #Script for the easy installation of AMD Drivers on HiveOS/Ubuntu based OS
 #Script By CryptoLuigi (Michael Ruperto)
-#Date: 2019-04-21
 #Contributors: miabo Cryptonuffe
+#Edit By WaterTim
+#Date: 2020-09-26
 
 systemctl stop hivex
 miner stop
