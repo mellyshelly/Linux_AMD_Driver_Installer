@@ -19,11 +19,7 @@ options=("19.50-967956-ubuntu-18.04" "20.40-1147287-ubuntu-18.04" "21.30-1286092
 select opt in "${options[@]}"
 do
 case $opt in
-    	
-    ;;
-	"19.30-838629-ubuntu-18.04")
-	wget http://download.hiveos.farm/drivers/amdgpu-pro-19.30-838629-ubuntu-18.04.tar.xz
-        version="19.30-838629-ubuntu-18.04";break
+      
     ;;
 	"19.50-967956-ubuntu-18.04")
 	wget http://download.hiveos.farm/drivers/amdgpu-pro-19.50-967956-ubuntu-18.04.tar.xz
@@ -31,6 +27,7 @@ case $opt in
    ;;
         "20.40-1147287-ubuntu-18.04.tar.xz")
         wget http://download.hiveos.farm/drivers/amdgpu-pro-20.40-1147287-ubuntu-18.04.tar.xz
+	version="20.40-1147287-ubuntu-18.04";break
    ;;
 	"21.30-1286092-ubuntu-18.04")
 	curl --referer https://drivers.amd.com/drivers/linux/amdgpu-pro-21.30-1286092-ubuntu-18.04.tar.xz
