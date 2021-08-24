@@ -99,7 +99,7 @@ case $opt in
 	wget http://download.hiveos.farm/drivers/amdgpu-pro-19.50-967956-ubuntu-18.04.tar.xz
         version="19.50-967956-ubuntu-18.04";break
     ;;
-	"20.30-1109583-ubuntu-18.04")
+	"21.30-1286092-ubuntu-18.04")
 	curl --referer https://drivers.amd.com/drivers/linux/amdgpu-pro-21.30-1286092-ubuntu-18.04.tar.xz
         version="21.30-1286092-ubuntu-18.04";break
     ;;
