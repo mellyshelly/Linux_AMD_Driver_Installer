@@ -1,9 +1,9 @@
 #!/bin/bash
 #Script for the easy installation of AMD Drivers on HiveOS/Ubuntu based OS
 #Script By CryptoLuigi (Michael Ruperto)
-#Contributors: miabo Cryptonuffe
-#Edit By WaterTim
-#Date: 2020-09-26
+#Contributors: miabo Cryptonuffe watertim
+#Edit By mellyshelly
+#Date: 2021-08-24
 
 systemctl stop hivex
 miner stop
@@ -14,7 +14,7 @@ cd /hive-drivers-pack/
 echo "Please note Drivers with the 18.04 suffix require an OS upgrade, or On Hiveos u can download the latest beta from http://download.hiveos.farm/ and install on a fresh usb."
 PS3='Please enter your choice Drivers: '
 
-options=("16.40-348864-ubuntu-16.04" "16.60-379184-ubuntu-16.04" "17.10-429170-ubuntu-16.04" "17.10-450821-ubuntu-16.04" "17.30-458935-ubuntu-16.04" "17.30-465504-ubuntu-16.04" "17.40-492261-ubuntu-16.04" "17.40-483984-ubuntu-16.04" "17.50-511655-ubuntu-16.04" "18.10-572953-ubuntu-16.04" "18.20-606296-ubuntu-18.04" "18.30-641594-ubuntu-18.04" "18.30-641594-ubuntu-16.04" "18.40-673869-ubuntu-16.04" "18.40-697810-ubuntu-18.04" "18.50-725072-ubuntu-18.04" "19.10-785425-ubuntu-18.04" "19.20-812932-ubuntu-18.04" "19.30-838629-ubuntu-18.04" "19.50-967956-ubuntu-18.04" "20.30-1109583-ubuntu-18.04" "Quit")
+options=("16.40-348864-ubuntu-16.04" "16.60-379184-ubuntu-16.04" "17.10-429170-ubuntu-16.04" "17.10-450821-ubuntu-16.04" "17.30-458935-ubuntu-16.04" "17.30-465504-ubuntu-16.04" "17.40-492261-ubuntu-16.04" "17.40-483984-ubuntu-16.04" "17.50-511655-ubuntu-16.04" "18.10-572953-ubuntu-16.04" "18.20-606296-ubuntu-18.04" "18.30-641594-ubuntu-18.04" "18.30-641594-ubuntu-16.04" "18.40-673869-ubuntu-16.04" "18.40-697810-ubuntu-18.04" "18.50-725072-ubuntu-18.04" "19.10-785425-ubuntu-18.04" "19.20-812932-ubuntu-18.04" "19.30-838629-ubuntu-18.04" "19.50-967956-ubuntu-18.04" "21.30-1286092-ubuntu-18.04" "Quit")
 
 select opt in "${options[@]}"
 do
