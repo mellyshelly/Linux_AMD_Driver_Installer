@@ -2,7 +2,7 @@
 ---
 ## By: CryptoLuigi
 ## Code contributors: Cryptonuffe miabo
-## Edit: WaterTim
+## Edit: WaterTim, mellyshelly
 #### Click link below to learn more about HiveOS
 
 https://hiveos.farm?ref=199569
@@ -23,7 +23,7 @@ Please note Drivers with the 18.04 suffix require an OS upgrade
  7) 17.40-492261-ubuntu-16.04   18) 19.20-812932-ubuntu-18.04
  8) 17.40-483984-ubuntu-16.04   19) 19.30-838629-ubuntu-18.04
  9) 17.50-511655-ubuntu-16.04   20) 19.50-967956-ubuntu-18.04
-10) 18.10-572953-ubuntu-16.04   21) 20.30-1109583-ubuntu-18.04
+10) 18.10-572953-ubuntu-16.04   21) 21.30-128630-ubuntu-18.04
 11) 18.20-606296-ubuntu-18.04   22) Quit
 
 Please enter your choice Drivers:
@@ -38,7 +38,7 @@ Further documentation can be found on the HiveOS forum
  
 For a guided installation enter the following 3 commands
 ```
-wget https://raw.githubusercontent.com/watertim/Linux_AMD_Driver_Installer/master/amd_install.sh
+wget https://raw.githubusercontent.com/mellyshelly/Linux_AMD_Driver_Installer/master/amd_install.sh
 
 chmod +x ./amd_install.sh
 
